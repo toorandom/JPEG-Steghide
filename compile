@@ -1,0 +1,1 @@
+gcc -ggdb -g3   main.c base64.c convert_bin_delinearize.c jpeg_stuff.c jpeg_extract_secrets.c getfilefromb64.c smart_read_high_freq.c smart_write_jpeg.c  -lm -lcrypto /usr/lib/x86_64-linux-gnu/libjpeg.so -o steg
